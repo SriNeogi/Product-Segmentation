@@ -1,6 +1,6 @@
 
 # Dataset
-*Sample deals data containing row-wise time series data. The first 2 columns (Market and Sales Product) are non-numerical columns, so we remove them, perform out Kmeans cluster analysis on the numerical matrix and then add them back at the end. 
+*Sample deals data containing row-wise time series data. The first 2 columns (Market and Sales Product) are non-numerical columns, so we remove them, run the Kmeans cluster model on the numerical matrix and then add them back at the end. 
 *The features used for Kmeans analysis are Mean Volume and Coefficient of variation. 
 
 # Libraries
